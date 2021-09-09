@@ -37,6 +37,14 @@ function checkRestricoes($pontuacao, $tamanho_do_time, $k)
     return $restricoesPontuacao && $restricoesTamanhoTime && $restricoesTamanhoSegmentosArray;
 }
 
+// n = 100000
+// $tamanho_do_time = 600
+// k = 500
+
+//1<= $pontuacao[i] >= 109
+//1<= $tamanho_do_time <= n   
+//1<= k <= n   
+   
 function formacaoDeTime($pontuacao, $tamanho_do_time, $k) {
     $checkRestricao = checkRestricoes($pontuacao, $tamanho_do_time, $k);
     
