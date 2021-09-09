@@ -18,12 +18,10 @@ function selecionaMelhorPontuacao(array $candidatos, int $k){
     $primeiroGrupo = array_slice($candidatos,0,$k, true);
     $ultimoGrupo = array_slice($candidatos, -$k, $tamanhoDoArrayCandidatos-1, true);
     
-    $keyMaiorPrimeiroGrupo = array_search(max($primeiroGrupo), $primeiroGrupo);
-    $keyMaiorUltimoGrupo = array_search(max($ultimoGrupo), $ultimoGrupo);
+    $maxPrimeiroGrupo = max($primeiroGrupo);
+    $maxUltimoGrupo = max($ultimoGrupo);
 
-    $keyMaior = max($primeiroGrupo) > max($ultimoGrupo) ? $keyMaiorPrimeiroGrupo : $keyMaiorUltimoGrupo;
-
-    return $keyMaior;
+    return $maxPrimeiroGrupo < $maxUltimoGrupo ? array_search($maxUltimoGrupo, $ultimoGrupo) : array_search($maxPrimeiroGrupo, $primeiroGrupo);
 }
 
 function checkRestricoes($pontuacao, $tamanho_do_time, $k)
