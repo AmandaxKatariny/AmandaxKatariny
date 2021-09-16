@@ -67,4 +67,24 @@ function formacaoDeTime($pontuacao, $tamanho_do_time, $k) {
     }
     
 }
+
 $fptr = fopen(getenv("OUTPUT_PATH"), "w");
+
+$pontuacao_count = intval(trim(fgets(STDIN)));
+
+$pontuacao = array();
+
+for ($i = 0; $i < $pontuacao_count; $i++) {
+    $pontuacao_item = intval(trim(fgets(STDIN)));
+    $pontuacao[] = $pontuacao_item;
+}
+
+$tamanho_do_time = intval(trim(fgets(STDIN)));
+
+$k = intval(trim(fgets(STDIN)));
+
+$result = formacaoDeTime($pontuacao, $tamanho_do_time, $k);
+
+fwrite($fptr, $result . "\n");
+
+fclose($fptr);
