@@ -1,9 +1,9 @@
 ## Olá, bem vindo(a)!
 ### Eu sou a Amanda Katariny 👋
 
-- 🔭 Full Stack Developer `Laravel` `JavaScript` `MySQL` `DevOps`
+- 🔭 Full Stack Developer `Laravel` `JavaScript` `MySQL` 
 - 🌱 Estudando `Clojure` `Datomic` `Kafka` `OWASP`
-- :pushpin: Interesses `Flutter` `React Native` `ReactJS`
+- :pushpin: Interesses `Flutter` `React Native` `ReactJS`` DevOps`
 
 <div style="display: inline_block" align="right"><br>
   <img align="center" alt="laravel" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain.svg">
