@@ -1,8 +1,8 @@
 ## Olá, bem vindo(a)!
 ### Eu sou a Amanda Katariny 👋
 
-- 🔭 Full Stack Developer `Laravel` `JavaScript` `MySQL` 
-- 🌱 Estudando `Clojure` `Datomic` `Kafka` `OWASP`
+- 🔭 Full Stack Developer `Clojure` `Datomic` `Laravel` `JavaScript` `MySQL` 
+- 🌱 Estudando `Clojure` `Datomic` `Kafka` 
 - :pushpin: Interesses `Flutter` `React Native` `ReactJS`` DevOps`
 
 <div style="display: inline_block" align="right"><br>
