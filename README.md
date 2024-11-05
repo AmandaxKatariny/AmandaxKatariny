@@ -3,7 +3,7 @@
 
 - 🔭 Full Stack Developer `Clojure` `Datomic` `Laravel` `JavaScript` `MySQL` 
 - 🌱 Estudando `Clojure` `Datomic` `Kafka` 
-- :pushpin: Interesses `Flutter` `React Native` `ReactJS` DevOps`
+- :pushpin: Interesses `Flutter` `React Native` `ReactJS` `DevOps`
 
  <div align="center"><br>
   <a href="https://github.com/AmandaxKatariny">
